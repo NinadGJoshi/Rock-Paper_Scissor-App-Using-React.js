@@ -1,0 +1,64 @@
+.game-wrapper{
+    position: relative;;
+}
+.game-wrapper{
+    padding: 50px;
+}
+.div-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.img-container{
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 0 20px;
+    box-shadow: 0.5px 0.5px 15px blue;
+}
+
+.hand-img{
+    width: 100%;
+    height: 100%;
+}
+
+.game-heading{
+    font-family: cursive;
+}
+
+.won{
+    color: green;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.won::after {
+    content: "\2713";
+}
+
+.lost{
+    color: red;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.lost::after {
+    content: "\2717";
+}
+
+.draw{
+    color: gray;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.draw::after{
+    content: "\229C";
+}
+
+.versus-text{
+    padding: 115px 0;
+    color: orange;
+}
